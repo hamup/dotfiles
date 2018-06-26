@@ -4,6 +4,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'scrooloose/nerdtree'
 Plug 'bronson/vim-trailing-whitespace'
 Plug 'tpope/vim-endwise'
+Plug 'altercation/vim-colors-solarized'
 
 call plug#end()
 "===============================================================================
