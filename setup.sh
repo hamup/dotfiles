@@ -3,6 +3,7 @@
 #Initial Setting
 SCRIPT_DIR=$(cd $(dirname $0); pwd)
 VIMRC=$HOME/.vimrc
+ZSHRC=$HOME/.zshrc
 GVIMRC=$HOME/.gvimrc
 VIMDIR=$HOME/.vim
 
@@ -11,6 +12,12 @@ if [ -e  $VIMRC ]; then
   echo "$VIMRC already exists"
 else
   ln -s $SCRIPT_DIR/.vimrc $HOME
+fi
+
+if [ -e  $ZSHRC ]; then
+  echo "$ZSHRC already exists"
+else
+  ln -s $SCRIPT_DIR/.zshrc $HOME
 fi
 
 if [ -e  $GVIMRC ]; then

@@ -5,5 +5,5 @@ In this repository, we manage dotfiles and others.
 ```
 $git clone https://github.com/hamup/dotfiles.git
 
-$setup.h
+$setup.sh
 ```
